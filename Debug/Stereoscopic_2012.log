@@ -1,0 +1,58 @@
+﻿Build started 11/12/2014 14:53:56.
+     1>Project "C:\Users\Simon\Documents\Visual Studio 2012\Projects\Stereoscopic\Stereoscopic_2012.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IHelpers /IImport /IImport\Common /IImport\Math /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D DEBUG /D PROFILE /D _WINDOWS /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /FAs /Fa"Debug\\" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp CTimer.cpp Import\CImportXFile.cpp Import\Common\CFatalException.cpp Import\Common\MSDefines.cpp Import\Common\Utility.cpp Import\Math\BaseMath.cpp Import\Math\CMatrix2x2.cpp Import\Math\CMatrix3x3.cpp Import\Math\CMatrix4x4.cpp Import\Math\CQuaternion.cpp Import\Math\CQuatTransform.cpp Import\Math\CVector2.cpp Import\Math\CVector3.cpp Import\Math\CVector4.cpp Import\Math\MathIO.cpp Model.cpp Stereoscopic.cpp Input.cpp
+         Input.cpp
+         Stereoscopic.cpp
+         Model.cpp
+         MathIO.cpp
+         CVector4.cpp
+         CVector3.cpp
+         CVector2.cpp
+         CQuatTransform.cpp
+         CQuaternion.cpp
+         CMatrix4x4.cpp
+         CMatrix3x3.cpp
+         CMatrix2x2.cpp
+         BaseMath.cpp
+         Utility.cpp
+         MSDefines.cpp
+         CFatalException.cpp
+         CImportXFile.cpp
+         CTimer.cpp
+         Camera.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D _VC80_UPGRADE=0x0710 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\Stereoscopic.res" Stereoscopic.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\Stereoscopic.exe" /INCREMENTAL /NOLOGO winmm.lib d3d10.lib d3dx10d.lib d3dx9d.lib dxguid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"Debug\Stereoscopic.pdb" /SUBSYSTEM:WINDOWS,"5.01" /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Debug\Stereoscopic.lib" /MACHINE:X86 /SAFESEH:NO Debug\Stereoscopic.res
+         Debug\Camera.obj
+         Debug\CTimer.obj
+         Debug\CImportXFile.obj
+         Debug\CFatalException.obj
+         Debug\MSDefines.obj
+         Debug\Utility.obj
+         Debug\BaseMath.obj
+         Debug\CMatrix2x2.obj
+         Debug\CMatrix3x3.obj
+         Debug\CMatrix4x4.obj
+         Debug\CQuaternion.obj
+         Debug\CQuatTransform.obj
+         Debug\CVector2.obj
+         Debug\CVector3.obj
+         Debug\CVector4.obj
+         Debug\MathIO.obj
+         Debug\Model.obj
+         Debug\Stereoscopic.obj
+         Debug\Input.obj
+         Stereoscopic_2012.vcxproj -> C:\Users\Simon\Documents\Visual Studio 2012\Projects\Stereoscopic\Debug\Stereoscopic.exe
+       PostBuildEvent:
+         copy "C:\Users\Simon\Documents\Visual Studio 2012\Projects\Stereoscopic\Stereoscopic.fx" "C:\Users\Simon\Documents\Visual Studio 2012\Projects\Stereoscopic\Debug\"
+         :VCEnd
+                 1 file(s) copied.
+     1>Done Building Project "C:\Users\Simon\Documents\Visual Studio 2012\Projects\Stereoscopic\Stereoscopic_2012.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:25.44
